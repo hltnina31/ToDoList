@@ -133,7 +133,12 @@ button {
     height: 20px;
 }
 
-.taskItem images {
+.task.completed {
+    text-decoration: line-through;
+    color: rgb(89, 41, 72);
+}
+
+.taskItem img  {
     width: 24px;
     height: 24px;
     margin: 0 10px;
