@@ -5,10 +5,10 @@
 }
 
 :root {
-    --background: #5D688A;
-    --secondaryBackground: #F7A5A5;
+    --background: #e17f93;
+    --secondaryBackground: #eba7ac;
     --text: #fff;
-    --babypink: #E5BEB5;
+    --babypink: #f8a2c8;
     --creamy: #FFF2EF;
 }
 
@@ -28,9 +28,9 @@ body {
 }
 
 .stats-container {
-    padding: 30px;
+    padding: 35px;
     border-radius: 20px;
-    border: 2px solid var(--babypink);
+    border: 7px solid var(--babypink);
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -77,14 +77,15 @@ form {
 }
 
 input {
-    padding: 16px;
+    padding: 13px;
     background-color: var(--babypink);
-    border: 1px solid var(--text);
+    border: 4px solid var(--text);
     flex: 1;
     border-radius: 10px;
     outline: none;
     color: var(--text);
-
+    font-weight: 550;
+    font-size: 15px;
 }
 
 
@@ -95,7 +96,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #b3938c ;
+    background-color: var(--babypink) ;
     color: var(--text);
     font-size: 25px;
     font-weight: bold;
